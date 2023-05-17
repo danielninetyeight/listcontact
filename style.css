@@ -1,0 +1,231 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    /* 1 */
+    border-width: 0;
+    /* 2 */
+    border-style: solid;
+    /* 2 */
+    border-color: #e5e7eb;
+    /* 2 */
+}
+
+body {
+    margin: 0%;
+    min-height: 100vh;
+    padding-top: 2.5rem;
+    background-image: url(/photos/BACKGROUND-BODY.jpg);
+    font-family: 'Inter', sans-serif;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.Header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;   
+    margin: 0%;
+    background-color: rgb(37, 37, 37);
+}
+
+.header-title {
+    color: bisque;
+}
+
+
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#num-disclaimer {
+
+    color: bisque;
+    font-size: 17px;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#form-disclaimer {
+
+    color: rgb(148, 6, 6);
+    font-size: 15px;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 750;
+    
+
+}
+
+#number-input {
+    padding: 2px 1px;
+    margin-right: 5px;
+    border: 0;
+    width: 15rem;
+    cursor: text;
+    border-radius: 4px;
+}
+
+#name-input {
+    padding: 2px 1px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    width: 15rem;
+    cursor: text;
+    border-radius: 4px;
+}
+
+.form-btn {
+    border-radius: 1rem;
+    width: 7rem;
+    cursor: pointer;
+}
+
+.contact-number-space {
+    border-radius: 1rem;
+    width: 7.5rem;
+    height: 50%;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.contact-name-space {
+    border-radius: 1rem;
+    width: 7.5rem;
+    height: 50%;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+#contact-holder {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#contact-info {
+    display: flex;
+    padding: 4px 4px; 
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+    
+}
+
+#List {
+
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+#ListItem {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+   
+}
+
+
+.delete-btn {
+    background-color: transparent;
+    padding: 2px 2px; 
+}
+
+#title-inputs {
+    color: rgb(251, 204, 147);
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 650;
+    margin-bottom: 4px;
+}
+
+
+.delete-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0;
+    transition: all 0.5s ease-in-out; 
+
+}
+
+.delete-icon:hover {
+    background-color: tomato;
+    border-radius: 1rem;
+}
+
+.edit-btn {
+
+    background-color: transparent;
+    padding: 2px 2px;
+   
+}
+
+
+.edit-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    margin: 0;
+    transition: all 0.5s ease-in-out; 
+
+}
+
+.editando-save {
+    font-style: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; 
+    color: rgb(218, 234, 7);
+    background-color: rgb(21, 165, 165);
+    border-radius: 1rem;
+    font-weight: 500;
+    
+}
+
+
+
+.red {
+    color: red;
+    background-color: bisque;
+    font-weight: 700;
+   
+}
+
+.green {
+    color: green;
+    background-color: bisque;
+    font-weight: 700;
+
+}
+
+.guardarbtn {
+    background-color: yellow;
+}
